@@ -1,15 +1,22 @@
 <template>
+  <checkbox />
+  <dropdown />
   <VariaveisFuncoes />
   
 </template>
 
 <script>
-import VariaveisFuncoes from './components/VariaveisFuncoes.vue';
+import checkbox from './components/checkbox.vue'
+import dropdown from './components/dropdown.vue'
+
+
 
 export default {
   components: {
-    VariaveisFuncoes
-  }
+    checkbox,
+    dropdown,
+   
+}
 }
 </script>
 

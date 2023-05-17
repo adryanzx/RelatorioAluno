@@ -1,4 +1,6 @@
 <template>
+
+  <dropdown />
     <div class="custom-check"> 
  
  <input type="checkbox" :id="id" v-model="check" :disabled="disabled == true ? 'disabled' : null" /> 
@@ -18,6 +20,10 @@
  
  export default {
      name: 'checkbox',
+     components: {
+      dropdown
+
+     },
      
      
      data() { 
@@ -187,7 +193,6 @@
  
    border-radius: 3px; 
  
-  -webkit-appearance: none; 
  
    background-color: transparent; 
  
