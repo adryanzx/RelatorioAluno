@@ -162,7 +162,7 @@
 
 <!-- AÇÕES Ppersonalizado --> 
 
-<div class="is-flex --is-flex-wrap" v-if="dadosPeriodo == 'Personalizado'"> 
+<div class="is-flex --is-flex-wrap" v-if="dadosações == 'Personalizado'"> 
 
   <!-- AÇÕES inicio --> 
 
@@ -189,6 +189,8 @@
         required="required" 
 
       /> 
+
+      
 
     </div> 
 

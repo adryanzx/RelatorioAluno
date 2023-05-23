@@ -120,7 +120,7 @@
  </script>
  
  <style>
- checkbox 
+ checkbo5x 
  
  
  
@@ -129,6 +129,9 @@
    display: block; 
  
    margin-bottom:  15px; 
+
+   
+
  
  } 
  
@@ -136,7 +139,7 @@
  
  .custom-check input { 
  
-   
+  
  
    border: none !important; 
  
@@ -179,6 +182,7 @@
    position: relative; 
  
    cursor: pointer; 
+   margin-left: 45rem;
    
  
  } 
@@ -186,6 +190,7 @@
   
  
  .custom-check label:before { 
+ 
  
    transition: box-shadow 0.1s ease-in-out; 
  
@@ -237,6 +242,8 @@
    border-width: 0 2px 2px 0; 
  
    transform: rotate(45deg); 
+
+   
  
  } 
  
