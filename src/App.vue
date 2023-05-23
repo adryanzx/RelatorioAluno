@@ -1,5 +1,5 @@
 <template>
-  <checkbox />
+  <checkbox  />
   <dropdown />
   <VariaveisFuncoes />
   

@@ -142,7 +142,7 @@
 
     <div class="select"> 
 
-      <select :id="id" v-model="dadosações.açõesSelecionado" v-on:change="Carregaações()" style="min-width: 300px"> 
+      <select :id="id" v-model="dadosações" v-on:change="Carregaações()" style="min-width: 300px"> 
 
         <option v-for="ações in itemsações" :key="ações" :value="ações"> 
 
@@ -162,7 +162,7 @@
 
 <!-- AÇÕES Ppersonalizado --> 
 
-<div class="is-flex --is-flex-wrap" v-if="dadosPeriodo.açõesSelecionado == 'Personalizado'"> 
+<div class="is-flex --is-flex-wrap" v-if="dadosPeriodo == 'Personalizado'"> 
 
   <!-- AÇÕES inicio --> 
 
