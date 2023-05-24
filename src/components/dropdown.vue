@@ -1,5 +1,7 @@
 <template> 
 
+
+
     <div class="is-flex --is-flex-wrap"> 
   
       <!-- Select do periodo --> 
@@ -259,7 +261,9 @@
       <span>Buscar</span> 
 
     </button> 
-
+   
+ 
+   
   </div> 
 
 </div> 
@@ -267,6 +271,7 @@
 
   
     </div> 
+   
   
   </template> 
   
@@ -275,9 +280,10 @@
   <script> 
   
   export default { 
+    
   
     data() { 
-  
+    
       return { 
   
         itemsPeriodo: [ 
