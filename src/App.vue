@@ -1,10 +1,5 @@
 <template>
-  
-  
-  <div>
-  <timeline />
-</div>
-  
+   
   <div class="columns">
   <div class="column is-3 mt-2">
     <dropdown />
@@ -15,8 +10,10 @@
   <div class="column auto mt-6">
     <checkbox  />
   </div>
+  </div>
 
-  
+  <div>
+  <timeline />
 </div>
 
 
