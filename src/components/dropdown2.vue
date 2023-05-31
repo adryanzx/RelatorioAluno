@@ -149,37 +149,25 @@
       
         return { 
     
-          itemsPeriodo: [ 
+          itemsacoes: [ 
     
-            "Últimos 7 dias", 
-    
-            "Últimos 14 dias", 
-    
-            "Últimos 28 dias", 
-    
-            "Últimos 30 dias", 
-    
-            "Hoje", 
-    
-            "Ontem", 
-    
-            "Essa semana (dom)", 
-    
-            "Essa semana (seg)", 
-    
-            "Semana passada (dom)", 
-    
-            "Semana passada (seg)", 
-    
-            "Este mês", 
-    
-            "Mês passado", 
-    
-            "Este ano", 
-    
-            "Ano passado", 
-    
-            "Personalizado", 
+            "Login/Logout", 
+            "Aula", 
+            "Prova", 
+            "Abriu aula",
+            "Realizou entrega de arquivo ",
+            "Visualizou o Histórioco de aulas realizadas",//API
+            "Visualizou Histórico de provas realizadas",//API
+            "Iniciou a tentativa da habilidade",
+            "Realizou aula da habilidade",   
+            "Finalizou a habilidade", //(aprovado ou reporvado)
+            "Finalizou o eixo",
+            "Finalizou a Trilha",
+            "Visualizou o ranking",  //API 
+            "Fez incrição na turma",
+            "Baixou lista de aula e Trilhas",
+            "Baixou a aula ou a Trilha",
+            "Sincronizou nota ",     
     
           ], 
     
