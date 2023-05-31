@@ -1,3 +1,4 @@
+<template>
 <div class="field mr-4"> 
   
     <label class="label" :for="id">Ações:</label> 
@@ -6,9 +7,9 @@
   
       <div class="select"> 
   
-        <select :id="id" v-model="dadosações" v-on:change="Carregaações()" style="min-width: 300px"> 
+        <select :id="id" v-model="dadosacoes" v-on:change="Carregaacoes()" style="min-width: 300px"> 
   
-          <option v-for="ações in itemsações" :key="ações" :value="ações"> 
+          <option v-for="ações in itemsacoes" :key="ações" :value="ações"> 
   
             {{ ações }} 
   
@@ -26,7 +27,7 @@
   
   <!-- AÇÕES Ppersonalizado --> 
   
-  <div class="is-flex --is-flex-wrap" v-if="dadosações == 'Personalizado'"> 
+  <div class="is-flex --is-flex-wrap" v-if="dadosacoes == 'Personalizado'"> 
   
     <!-- AÇÕES inicio --> 
   
@@ -46,7 +47,7 @@
   
           id="custom-dt-inicio" 
   
-          v-model="dadosações.dataInicio" 
+          v-model="dadosacoes.dataInicio" 
   
           type="date" 
   
@@ -80,7 +81,7 @@
   
           id="custom-dt-fim" 
   
-          v-model="dadosações.dataFim" 
+          v-model="dadosacoes.dataFim" 
   
           type="date" 
   
@@ -132,7 +133,7 @@
   
   
     
-      </div> 
+      
      
     
     </template> 

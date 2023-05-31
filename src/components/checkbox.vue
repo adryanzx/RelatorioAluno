@@ -180,9 +180,9 @@
  .custom-check label { 
  
    position: relative; 
-    top: 5rem;
+    /* top: 5rem; */
    cursor: pointer; 
-   margin-left: 65rem;
+   /* margin-left: 65rem; */
    
    
  
