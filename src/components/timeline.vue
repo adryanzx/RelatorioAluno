@@ -45,7 +45,9 @@
 
 <div :class="!noPadding ? 'p-4' : null" v-show="visible === true"> 
 
-  <slot></slot> 
+ 
+
+ 
 
 </div> 
 

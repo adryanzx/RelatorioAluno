@@ -11,6 +11,7 @@
 
 </label> 
  
+<slot></slot>
  
  </div>
  
@@ -21,6 +22,7 @@
  export default {
      name: 'checkbox',
      components: {
+     
       
 
      },

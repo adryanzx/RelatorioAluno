@@ -468,7 +468,7 @@
   
    
   
-  CSS 
+  <style>
   
   .--is-flex-wrap { 
   
@@ -477,3 +477,4 @@
     flex-wrap: wrap; 
   
   } 
+</style>
