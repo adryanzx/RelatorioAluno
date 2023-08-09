@@ -4,7 +4,8 @@
     <label class="label" for="selecionarTipo">Selecionar tipo:</label> 
     <div class="control"> 
       <div class="select"> 
-    <select id="selecionarTipo" v-model="tipoSelecionado" style="min-width: 300px"> 
+    <select id="selecionarTipo" v-model="tipoSelecionado" style="min-width: 300px">
+      <option value="Todos">Todos</option> 
       <option value="Login/Logout">Login/Logout</option>
       <option value="Aula">Aula</option>
       <option value="Prova">Prova</option>
@@ -34,7 +35,7 @@
 export default {
   data() {
     return {
-      tipoSelecionado: null
+      tipoSelecionado: "Todos"
     };
   }
 
