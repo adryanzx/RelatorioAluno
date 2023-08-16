@@ -1,7 +1,7 @@
 <template>
   <div class="is-flex --is-flex-wrap">
     <div class="field mr-4"> 
-    <label class="label" for="selecionarTipo">Selecionar tipo:</label> 
+    <label class="label" for="selecionarTipo">Ação:</label> 
     <div class="control"> 
       <div class="select"> 
     <select id="selecionarTipo" v-model="tipoSelecionado" style="min-width: 300px">
